@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="description" content="ICLP, the world’s premier institution for the instruction of both modern and classical Chinese, offers intensive language training in a Mandarin-speaking environment. "/>
+    <meta name="keywords" content=""/>
+    <title>作品集-Ajax/Json存取Google Map</title>
+    <link href="css/reset.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Ajax/Json存取Google Map</h1>
+      <div class="main">
+        <select id="js-select">
+          <option value="" disabled="" selected="">請選擇地區</option>
+          <option value="桃園區">桃園區</option>
+          <option value="中壢區">中壢區</option>
+          <option value="八德區">八德區 </option>
+          <option value="平鎮區">平鎮區</option>
+          <option value="大溪區">大溪區</option>
+          <option value="楊梅區">楊梅區</option>
+          <option value="龜山區">龜山區</option>
+          <option value="蘆竹區">蘆竹區</option>
+          <option value="新屋區">新屋區 </option>
+          <option value="龍潭區">龍潭區</option>
+        </select>
+        <div class="mapWrap">
+          <div class="mapView">
+            <div id="map"></div>
+          </div>
+          <div class="mapContent">
+            <ul id="listitem"></ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/vendors.js"></script>
+    <script async="async" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAcrbu17Pb8_c6C8HfBOq2WwQgNzLDzPE&amp;callback=initMap"></script>
+    <script src="js/all.js"></script>
+  </body>
+</html>

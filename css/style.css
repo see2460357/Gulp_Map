@@ -1,0 +1,79 @@
+body {
+  font-family: Microsoft JhengHei;
+  background: #aaaaaa; }
+
+h1 {
+  text-align: center;
+  color: #5BDAA5;
+  font-size: 35px;
+  font-weight: 900;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5); }
+
+.main {
+  margin-top: 50px; }
+  .main select {
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: #423F76;
+    font-family: Microsoft JhengHei; }
+    .main select option {
+      font-family: Microsoft JhengHei;
+      border-radius: 5px;
+      padding: 3px 10px; }
+  .main .mapWrap {
+    margin-top: 50px; }
+    .main .mapWrap .mapView {
+      float: left;
+      width: 50%; }
+      .main .mapWrap .mapView #map {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        width: 90%;
+        height: 370px;
+        background: #000;
+        border-radius: 5px; }
+    .main .mapWrap .mapContent {
+      float: left;
+      width: 50%; }
+      .main .mapWrap .mapContent #listitem {
+        height: 300px;
+        overflow-y: scroll; }
+        .main .mapWrap .mapContent #listitem .dropDown {
+          position: relative;
+          font-size: 22px;
+          color: #423F76;
+          font-weight: 900;
+          padding-bottom: 10px;
+          cursor: pointer; }
+          .main .mapWrap .mapContent #listitem .dropDown .submenu {
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            z-index: 9999;
+            display: none;
+            border-radius: 5px;
+            padding: 10px;
+            background: white;
+            position: absolute;
+            top: 20px;
+            left: -5px;
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 1.4; }
+            .main .mapWrap .mapContent #listitem .dropDown .submenu p {
+              font-weight: 600;
+              color: black; }
+              .main .mapWrap .mapContent #listitem .dropDown .submenu p span {
+                color: rgba(91, 218, 165, 0.9); }
+
+.wrap {
+  padding: 50px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  width: 960px; }
+
+.clearfix {
+  clear: both; }
+
+/*# sourceMappingURL=style.css.map */
